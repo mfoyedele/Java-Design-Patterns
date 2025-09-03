@@ -5,19 +5,19 @@ public class OrcKingdomFactory implements KingdomFactory {
 	@Override
 	public Castle createCastle() {
 		// TODO Auto-generated method stub
-		return null;
+		return new OrcCastle();
 	}
 
 	@Override
 	public King createKing() {
 		// TODO Auto-generated method stub
-		return null;
+		return new OrcKing();
 	}
 
 	@Override
 	public Army createArmy() {
 		// TODO Auto-generated method stub
-		return null;
+		return new OrcArmy();
 	}
 
 }
