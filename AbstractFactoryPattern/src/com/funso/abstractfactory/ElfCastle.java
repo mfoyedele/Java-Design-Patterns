@@ -4,7 +4,7 @@ public class ElfCastle implements Castle {
 	static final String DESCRIPTION = "This is the elven Castle!";
 
 	@Override
-	public String getDecription() {
+	public String getDescription() {
 		// TODO Auto-generated method stub
 		return DESCRIPTION;
 	}
