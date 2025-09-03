@@ -1,7 +1,7 @@
 package com.funso.abstractfactory;
 
-public class ElfArmy implements Army {
-	static final String DESCRIPTION = "This is the elven Army!";
+public class OrcArmy implements Army {
+	static final String DESCRIPTION = "This is the orc Army!";
 
 	@Override
 	public String getDescription() {
