@@ -39,7 +39,7 @@ public class App {
             .withHairColor(HairColor.BLACK)
             .withWeapon(Weapon.DAGGER)
             .build();
-    LOGGER.info(mage.toString());
+    log.info(mage.toString());
 
     var warrior =
         new Hero.Builder(Profession.WARRIOR, "Amberjill")
@@ -48,13 +48,13 @@ public class App {
             .withArmor(Armor.CHAIN_MAIL)
             .withWeapon(Weapon.SWORD)
             .build();
-    LOGGER.info(warrior.toString());
+    log.info(warrior.toString());
 
     var thief =
         new Hero.Builder(Profession.THIEF, "Desmond")
             .withHairType(HairType.BALD)
             .withWeapon(Weapon.BOW)
             .build();
-    LOGGER.info(thief.toString());
+    log.info(thief.toString());
   }
 }
